@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#08110b"/>
+  <path d="M14 14h36v36H14z" fill="none" stroke="#8de8a8" stroke-opacity=".55"/>
+  <text x="19" y="39" fill="#d9ffe2" font-family="monospace" font-size="20" font-weight="700">IA</text>
+  <path d="M46 18v27" stroke="#77d8cc" stroke-width="3"/>
+</svg>

@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b09">
+  <meta name="description" content="IB Afridi — Cybersecurity enthusiast, Python tool developer and web developer building security tools, web applications, 3D experiences and open-source projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="IB AFRIDI | Cybersecurity Enthusiast &amp; Web Developer">
+  <meta property="og:description" content="Security tools, web applications, 3D experiments and open-source work by IB Afridi.">
+  <meta property="og:url" content="https://ib-afridi.netlify.app">
+  <meta property="og:site_name" content="IB AFRIDI // CYBER COMMAND CENTER">
+  <meta name="color-scheme" content="dark">
+  <title>IB AFRIDI | Cybersecurity Enthusiast &amp; Web Developer</title>
+  <link rel="canonical" href="https://ib-afridi.netlify.app">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="ambient-grid" aria-hidden="true"></div>
+  <div class="scanline-overlay" aria-hidden="true"></div>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+
+  <section class="boot-screen" id="boot-screen" aria-label="System startup sequence" aria-live="polite">
+    <div class="boot-panel">
+      <div class="boot-topline">
+        <span class="brand-mark brand-mark--small" aria-hidden="true">IA<span>/</span></span>
+        <span class="mono muted">IB AFRIDI <span class="slash">//</span> PERSONAL SECURITY LAB</span>
+        <span class="boot-version">SYS.01</span>
+      </div>
+      <div class="boot-copy">
+        <p class="eyebrow"><span class="status-dot"></span> SECURE BOOT SEQUENCE</p>
+        <h2>Establishing<br><span>command link.</span></h2>
+        <p class="boot-intro">Identity verification in progress<span class="typing-cursor" aria-hidden="true"></span></p>
+      </div>
+      <div class="boot-log" id="boot-log" aria-live="polite"></div>
+      <div class="boot-progress-track" aria-hidden="true"><span id="boot-progress"></span></div>
+      <div class="boot-bottomline">
+        <span id="boot-state">AWAITING SYSTEM RESPONSE</span>
+        <button class="text-button" id="skip-boot" type="button">SKIP INTRO <span aria-hidden="true">↗</span></button>
+      </div>
+    </div>
+    <span class="boot-coordinate mono" aria-hidden="true">PK / 34.0151° N, 71.5249° E</span>
+  </section>
+
+  <header class="site-header">
+    <a class="brand-lockup" href="#top" aria-label="IB Afridi, back to top">
+      <span class="brand-mark" aria-hidden="true">IA<span>/</span></span>
+      <span class="brand-wordmark"><strong>IB AFRIDI</strong><small>CYBER COMMAND CENTER</small></span>
+    </a>
+    <div class="header-status mono"><span class="status-dot"></span> SYSTEM ONLINE <span class="header-divider">/</span> PESHAWAR, PK</div>
+    <a class="header-contact" href="#contact">LET'S CONNECT <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow hero-eyebrow"><span class="status-dot"></span> INDEPENDENT BUILDER <span class="eyebrow-divider">·</span> PESHAWAR, PAKISTAN</div>
+        <p class="hero-overline mono">SECURITY <span>/</span> SOFTWARE <span>/</span> SYSTEMS</p>
+        <h1 id="hero-title">IB <span>AFRIDI</span><i class="title-cursor" aria-hidden="true"></i></h1>
+        <div class="hero-roles" aria-label="Cybersecurity Enthusiast, Web Developer, Python Tool Developer">
+          <span>Cybersecurity Enthusiast</span><b aria-hidden="true">/</b>
+          <span>Web Developer</span><b aria-hidden="true">/</b>
+          <span>Python Tool Developer</span>
+        </div>
+        <p class="hero-description">I build practical security tools and thoughtful digital experiences — from Python research utilities to responsive web apps and interactive 3D.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#identity">ENTER COMMAND CENTER <span class="button-arrow" aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="#projects"><span class="button-play" aria-hidden="true">▷</span> VIEW PROJECTS</a>
+        </div>
+        <div class="hero-footnote mono"><span class="signal-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span> BUILT WITH INTENT. SHARED IN THE OPEN.</div>
+      </div>
+
+      <div class="hero-visual-wrap">
+        <div class="visual-corner visual-corner--tl" aria-hidden="true"></div>
+        <div class="visual-corner visual-corner--br" aria-hidden="true"></div>
+        <div class="network-console">
+          <div class="console-header">
+            <div class="console-heading"><span class="console-icon" aria-hidden="true">⌘</span><span><strong>STACK TOPOLOGY</strong><small>PERSONAL NETWORK MAP</small></span></div>
+            <span class="console-live mono"><i></i> LIVE</span>
+          </div>
+          <div class="network-stage" id="network-stage">
+            <canvas id="network-canvas" role="img" aria-label="Interactive 3D network visualization connecting Python, Linux, web security, networking, 3D, JavaScript, and GitHub"></canvas>
+            <div class="network-center-label" aria-hidden="true"><span>IA</span><small>CORE NODE</small></div>
+            <div class="stage-coordinates mono" aria-hidden="true">X 034 <span>/</span> Y 071</div>
+            <div class="stage-hint mono" aria-hidden="true">DRAG TO ROTATE</div>
+          </div>
+          <div class="network-legend" aria-label="Network nodes">
+            <span>PYTHON</span><span>LINUX</span><span>WEB SECURITY</span><span>NETWORKING</span><span>3D</span><span>JAVASCRIPT</span><span>GITHUB</span>
+          </div>
+          <div class="console-footer mono"><span>07 NODES CONNECTED</span><span>INTERACTIVE VIEW <b>●</b></span></div>
+        </div>
+        <div class="visual-note visual-note--left mono"><span class="note-dash"></span> OPEN SOURCE<br>BY DESIGN</div>
+        <div class="visual-note visual-note--right mono">ETHICAL<br>LAB WORK <span class="note-dot"></span></div>
+      </div>
+      <div class="hero-bottomline">
+        <span class="mono">SCROLL TO EXPLORE</span>
+        <span class="scroll-indicator" aria-hidden="true"><i></i></span>
+        <span class="mono">001 <span class="muted">/</span> 007</span>
+      </div>
+    </section>
+
+    <div class="section-wrap command-layout" id="command-center">
+      <aside class="section-rail" aria-label="Command center navigation">
+        <div class="rail-heading mono"><span>INDEX</span><span>07</span></div>
+        <nav class="rail-nav">
+          <a class="rail-link is-active" href="#identity" aria-current="location"><span class="rail-number">01</span><span>IDENTITY</span><i></i></a>
+          <a class="rail-link" href="#projects"><span class="rail-number">02</span><span>PROJECTS</span><i></i></a>
+          <a class="rail-link" href="#arsenal"><span class="rail-number">03</span><span>ARSENAL</span><i></i></a>
+          <a class="rail-link" href="#github"><span class="rail-number">04</span><span>GITHUB</span><i></i></a>
+          <a class="rail-link" href="#experience"><span class="rail-number">05</span><span>EXPERIENCE</span><i></i></a>
+          <a class="rail-link" href="#education"><span class="rail-number">06</span><span>EDUCATION</span><i></i></a>
+          <a class="rail-link" href="#contact"><span class="rail-number">07</span><span>CONTACT</span><i></i></a>
+        </nav>
+        <div class="rail-foot mono"><span class="status-dot"></span> PORTFOLIO INDEX<br><small>PUBLIC PROFILE / OPEN</small></div>
+      </aside>
+
+      <div class="content-stack">
+        <section class="content-section identity-section reveal" id="identity" aria-labelledby="identity-title">
+          <div class="section-heading-row">
+            <div>
+              <p class="section-index mono"><span>01</span> / IDENTITY</p>
+              <h2 id="identity-title">Curious by nature.<br><span>Builder by practice.</span></h2>
+            </div>
+            <span class="heading-stamp mono">PROFILE<br>IB-AF / 001</span>
+          </div>
+          <div class="identity-grid">
+            <div class="identity-main">
+              <p class="lead-copy">I'm <strong>IB Afridi</strong> — a cybersecurity enthusiast and web developer with hands-on experience building Python-based security tools, web applications, 3D projects, and hybrid Android apps.</p>
+              <p class="body-copy">My work brings together Python, Linux, network analysis, and modern web technology. I enjoy turning ideas into useful, well-crafted tools and learning through projects shared with the community.</p>
+              <div class="identity-tags"><span>CYBERSECURITY</span><span>PYTHON</span><span>WEB DEVELOPMENT</span><span>OPEN SOURCE</span><span>3D</span></div>
+            </div>
+            <div class="identity-aside">
+              <div class="info-row"><span class="mono">BASE</span><strong>Peshawar, Khyber Pakhtunkhwa<br>Pakistan</strong></div>
+              <div class="info-row"><span class="mono">FOCUS</span><strong>Security tooling · Web · 3D</strong></div>
+              <div class="info-row"><span class="mono">ROLES</span><strong>Security enthusiast<br>Developer · Tool builder</strong></div>
+              <a class="inline-link" href="mailto:ib.afridi.cs@gmail.com">ib.afridi.cs@gmail.com <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="identity-bottom mono"><span><b>01</b> PERSONAL PROFILE</span><span>LEARN FAST <i>·</i> BUILD RESPONSIBLY <i>·</i> SHARE OPENLY</span></div>
+        </section>
+
+        <section class="content-section projects-section reveal" id="projects" aria-labelledby="projects-title">
+          <div class="section-heading-row section-heading-row--projects">
+            <div>
+              <p class="section-index mono"><span>02</span> / SELECTED WORK</p>
+              <h2 id="projects-title">Built in the <span>lab.</span></h2>
+            </div>
+            <p class="section-intro">A collection of tools, apps, and experiments. Security utilities are intended for authorized research and legal lab environments.</p>
+          </div>
+
+          <article class="project-card project-card--featured">
+            <div class="project-featured-top">
+              <div class="project-number mono"><span>PROJECT</span> 01 <i>—</i> PYTHON / SECURITY</div>
+              <span class="project-status"><i></i> AUTHORIZED LAB TOOL</span>
+            </div>
+            <div class="project-featured-body">
+              <div class="project-copy">
+                <h3>IB AFRIDI<br><span>PENTEST FRAMEWORK</span></h3>
+                <p class="project-acronym mono">IAPF <span>//</span> 13-MODULE SECURITY TOOLKIT</p>
+                <p>A Python penetration testing toolkit designed for Kali Linux, security research, and authorized lab use. Supports both an interactive menu and CLI flag mode.</p>
+                <div class="project-meta-tags"><span>PYTHON</span><span>KALI LINUX</span><span>MULTI-THREADED</span><span>NMAP BACKEND</span></div>
+                <a class="project-link" href="https://github.com/afridi017/IB-AFRIDI-PENTEST-FRAMEWORK" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span aria-hidden="true">↗</span></a>
+              </div>
+              <div class="feature-console" aria-label="IAPF toolkit capabilities">
+                <div class="feature-console-top mono"><span>MODULE INDEX</span><span>13+ CAPABILITIES</span></div>
+                <ul class="feature-list">
+                  <li>Port scanner</li><li>DNS reconnaissance</li><li>Whois &amp; Geo IP</li><li>Subdomain enumeration</li>
+                  <li>HTTP security audit</li><li>Hash tools</li><li>Password auditor</li><li>Wordlist generator</li>
+                  <li>Subnet calculator</li><li>Full auto recon</li><li>Interactive menu</li><li>CLI flag mode</li>
+                  <li>Timestamped reports</li><li>Multi-threaded scanning</li><li>Nmap backend support</li>
+                </ul>
+                <div class="feature-console-bottom mono"><span>SAFE USE ONLY</span><span>RESEARCH / LAB</span></div>
+              </div>
+            </div>
+          </article>
+
+          <div class="project-grid">
+            <article class="project-card project-card--standard">
+              <div class="project-card-head"><span class="project-number mono">02 <i>—</i> PYTHON</span><span class="project-mark" aria-hidden="true">↗</span></div>
+              <h3>IB AFRIDI<br>RECON SUITE</h3>
+              <p class="project-label mono">RECONNAISSANCE TOOLKIT</p>
+              <p>Eight Python reconnaissance modules for discovery and information gathering in legal lab environments.</p>
+              <ul class="compact-features"><li>IP / Geo lookup</li><li>Multi-threaded port scan</li><li>DNS &amp; Whois</li><li>Banner grab · subnet · system info · logs</li></ul>
+              <div class="project-card-footer"><span class="lab-label"><i></i> LEGAL LAB ENVIRONMENTS</span><a href="https://github.com/afridi017/ib-afridi-recon-suite" target="_blank" rel="noopener noreferrer" aria-label="View IB Afridi Recon Suite on GitHub">OPEN REPO <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="project-card project-card--standard">
+              <div class="project-card-head"><span class="project-number mono">03 <i>—</i> THREE.JS / ANDROID</span><span class="project-mark" aria-hidden="true">◌</span></div>
+              <h3>IB AFRIDI<br>DRIFT KING</h3>
+              <p class="project-label mono">PLAYABLE 3D DRIFTING GAME</p>
+              <p>A browser-based 3D car drifting game packaged for Android.</p>
+              <div class="project-tech-list"><span>THREE.JS</span><span>CAPACITOR</span><span>ANDROID</span></div>
+              <div class="project-card-footer"><span class="project-kind">3D EXPERIENCE</span><a href="https://afridi017.github.io" target="_blank" rel="noopener noreferrer">PLAY / VIEW <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="project-card project-card--standard">
+              <div class="project-card-head"><span class="project-number mono">04 <i>—</i> HYBRID APP</span><span class="project-mark" aria-hidden="true">▣</span></div>
+              <h3>IB AFRIDI<br>MEDIA HUB</h3>
+              <p class="project-label mono">ANDROID MEDIA PLAYER</p>
+              <p>A hybrid Android media player application built with familiar web technologies.</p>
+              <div class="project-tech-list"><span>HTML5</span><span>CSS</span><span>JAVASCRIPT</span><span>CAPACITOR</span></div>
+              <div class="project-card-footer"><span class="project-kind">MOBILE / WEB</span><span class="project-no-link">NO PUBLIC DEMO LISTED</span></div>
+            </article>
+            <article class="project-card project-card--standard">
+              <div class="project-card-head"><span class="project-number mono">05 <i>—</i> REACT THREE FIBER</span><span class="project-mark" aria-hidden="true">◎</span></div>
+              <h3>3D SOLAR<br>SYSTEM</h3>
+              <p class="project-label mono">INTERACTIVE ORBITAL MECHANICS</p>
+              <p>An interactive solar system experience exploring planets and orbital motion in 3D.</p>
+              <div class="project-tech-list"><span>REACT THREE FIBER</span><span>3D</span></div>
+              <div class="project-card-footer"><span class="project-kind">INTERACTIVE EXPERIMENT</span><span class="project-no-link">PROJECT DETAILS</span></div>
+            </article>
+            <article class="project-card project-card--standard">
+              <div class="project-card-head"><span class="project-number mono">06 <i>—</i> NODE.JS</span><span class="project-mark" aria-hidden="true">⌁</span></div>
+              <h3>WHATSAPP<br>BOT</h3>
+              <p class="project-label mono">AI-POWERED CHATBOT</p>
+              <p>A chatbot project connecting messaging workflows with AI services.</p>
+              <div class="project-tech-list"><span>NODE.JS</span><span>LEVANTER</span><span>OPENROUTER API</span></div>
+              <div class="project-card-footer"><span class="project-kind">AUTOMATION / AI</span><span class="project-no-link">PROJECT DETAILS</span></div>
+            </article>
+            <article class="project-card project-card--standard">
+              <div class="project-card-head"><span class="project-number mono">07 <i>—</i> THREE.JS / GSAP</span><span class="project-mark" aria-hidden="true">⌖</span></div>
+              <h3>PERSONAL<br>PORTFOLIO</h3>
+              <p class="project-label mono">3D PORTFOLIO EXPERIENCE</p>
+              <p>A responsive 3D portfolio featuring motion design and a dark / light theme.</p>
+              <div class="project-tech-list"><span>THREE.JS</span><span>GSAP</span><span>RESPONSIVE</span></div>
+              <div class="project-card-footer"><span class="project-kind">PERSONAL WEBSITE</span><a href="https://ib-afridi.netlify.app" target="_blank" rel="noopener noreferrer">VISIT SITE <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="project-card project-card--standard project-card--last">
+              <div class="project-card-head"><span class="project-number mono">08 <i>—</i> GITHUB REPOSITORY</span><span class="project-mark" aria-hidden="true">⌘</span></div>
+              <h3>IB AFRIDI<br>LINUX</h3>
+              <p class="project-label mono">REPOSITORY DETAILS NOT DOCUMENTED HERE</p>
+              <p>Repository link is available; a description is not included because project details have not been verified.</p>
+              <div class="project-tech-list"><span>GITHUB</span><span>REPOSITORY</span></div>
+              <div class="project-card-footer"><span class="project-kind">DETAILS UNAVAILABLE</span><a href="https://github.com/afridi017/IB-AFRIDI-LINUX.git" target="_blank" rel="noopener noreferrer">OPEN REPO <span aria-hidden="true">↗</span></a></div>
+            </article>
+          </div>
+          <p class="section-footnote mono"><span>NOTE //</span> Security projects are presented for authorized testing, learning, and controlled lab environments.</p>
+        </section>
+
+        <section class="content-section arsenal-section reveal" id="arsenal" aria-labelledby="arsenal-title">
+          <div class="section-heading-row">
+            <div>
+              <p class="section-index mono"><span>03</span> / TECHNICAL ARSENAL</p>
+              <h2 id="arsenal-title">Tools for the <span>work.</span></h2>
+            </div>
+            <p class="section-intro">A practical stack across programming, security, web, and app development. Select a domain to inspect.</p>
+          </div>
+          <div class="arsenal-panel">
+            <div class="arsenal-tabs" role="tablist" aria-label="Technical skill categories">
+              <button class="arsenal-tab is-selected" id="tab-programming" type="button" role="tab" aria-selected="true" aria-controls="panel-programming" data-panel="programming"><span>01</span> PROGRAMMING</button>
+              <button class="arsenal-tab" id="tab-cybersecurity" type="button" role="tab" aria-selected="false" aria-controls="panel-cybersecurity" data-panel="cybersecurity" tabindex="-1"><span>02</span> CYBERSECURITY</button>
+              <button class="arsenal-tab" id="tab-web" type="button" role="tab" aria-selected="false" aria-controls="panel-web" data-panel="web" tabindex="-1"><span>03</span> WEB</button>
+              <button class="arsenal-tab" id="tab-other" type="button" role="tab" aria-selected="false" aria-controls="panel-other" data-panel="other" tabindex="-1"><span>04</span> OTHER</button>
+            </div>
+            <div class="arsenal-content">
+              <div class="arsenal-panel-content is-visible" id="panel-programming" role="tabpanel" aria-labelledby="tab-programming" tabindex="0">
+                <div class="arsenal-panel-heading"><div><span class="mini-label mono">CORE LANGUAGES</span><h3>Programming</h3></div><span class="panel-count mono">05 ITEMS</span></div>
+                <div class="skill-list">
+                  <div class="skill-row"><span class="skill-name">Python</span><span class="skill-level">INTERMEDIATE</span><span class="skill-meter" aria-label="Intermediate"><i class="meter-fill meter-fill--3"></i></span></div>
+                  <div class="skill-row"><span class="skill-name">JavaScript</span><span class="skill-level">BEGINNER</span><span class="skill-meter" aria-label="Beginner"><i class="meter-fill meter-fill--1"></i></span></div>
+                  <div class="skill-row"><span class="skill-name">C++</span><span class="skill-level">BASIC</span><span class="skill-meter" aria-label="Basic"><i class="meter-fill meter-fill--1"></i></span></div>
+                  <div class="skill-row"><span class="skill-name">HTML5 / CSS3</span><span class="skill-level">INTERMEDIATE</span><span class="skill-meter" aria-label="Intermediate"><i class="meter-fill meter-fill--3"></i></span></div>
+                  <div class="skill-row"><span class="skill-name">Bash / Linux CLI</span><span class="skill-level">INTERMEDIATE</span><span class="skill-meter" aria-label="Intermediate"><i class="meter-fill meter-fill--3"></i></span></div>
+                </div>
+              </div>
+              <div class="arsenal-panel-content" id="panel-cybersecurity" role="tabpanel" aria-labelledby="tab-cybersecurity" tabindex="0" hidden>
+                <div class="arsenal-panel-heading"><div><span class="mini-label mono">RESEARCH &amp; ANALYSIS</span><h3>Cybersecurity</h3></div><span class="panel-count mono">07 TOOLS</span></div>
+                <div class="arsenal-chip-grid"><span>Nmap</span><span>Wireshark</span><span>Burp Suite</span><span>Hydra</span><span>Netcat</span><span>SQLmap</span><span>Kali Linux</span></div>
+                <p class="arsenal-note">Used for learning, defensive analysis, and authorized lab work.</p>
+              </div>
+              <div class="arsenal-panel-content" id="panel-web" role="tabpanel" aria-labelledby="tab-web" tabindex="0" hidden>
+                <div class="arsenal-panel-heading"><div><span class="mini-label mono">FRONT END TO DEPLOYMENT</span><h3>Web</h3></div><span class="panel-count mono">11 TECHNOLOGIES</span></div>
+                <div class="arsenal-chip-grid"><span>HTML5</span><span>CSS3</span><span>Bootstrap 5</span><span>Flexbox</span><span>CSS Grid</span><span>Three.js</span><span>Node.js</span><span>Express</span><span>Git</span><span>GitHub</span><span>Netlify</span></div>
+              </div>
+              <div class="arsenal-panel-content" id="panel-other" role="tabpanel" aria-labelledby="tab-other" tabindex="0" hidden>
+                <div class="arsenal-panel-heading"><div><span class="mini-label mono">BUILD &amp; DEBUG</span><h3>Other tools</h3></div><span class="panel-count mono">03 TOOLS</span></div>
+                <div class="arsenal-chip-grid"><span>Capacitor</span><span>VS Code</span><span>Chrome DevTools</span></div>
+                <p class="arsenal-note">Tools used to develop, test, and package web and hybrid applications.</p>
+              </div>
+            </div>
+          </div>
+          <div class="arsenal-bottom mono"><span>ALWAYS LEARNING <i>+</i></span><span>SKILLS SHOWN AS PROVIDED — NO SCORES INFERRED</span></div>
+        </section>
+
+        <section class="content-section github-section reveal" id="github" aria-labelledby="github-title">
+          <div class="section-heading-row">
+            <div>
+              <p class="section-index mono"><span>04</span> / OPEN SOURCE</p>
+              <h2 id="github-title">The work lives <span>in public.</span></h2>
+            </div>
+            <a class="github-profile-link" href="https://github.com/afridi017" target="_blank" rel="noopener noreferrer"><span class="github-glyph" aria-hidden="true">⌘</span> GITHUB.COM/AFRIDI017 <span aria-hidden="true">↗</span></a>
+          </div>
+          <!-- Static fallback boundary: repository cards and activity can be replaced with GitHub API data later. -->
+          <div class="github-grid" data-github-profile="afridi017" data-github-mode="static-fallback">
+            <div class="repo-directory">
+              <div class="repo-directory-heading"><span class="mono">REPOSITORY DIRECTORY</span><span class="api-badge"><i></i> STATIC VIEW</span></div>
+              <a class="repo-row" href="https://github.com/afridi017/IB-AFRIDI-PENTEST-FRAMEWORK" target="_blank" rel="noopener noreferrer"><span class="repo-icon">PY</span><span class="repo-details"><strong>IB-AFRIDI-PENTEST-FRAMEWORK</strong><small>Python security toolkit · authorized lab use</small></span><span class="repo-language"><i class="lang-dot lang-python"></i> Python</span><span class="repo-arrow" aria-hidden="true">↗</span></a>
+              <a class="repo-row" href="https://github.com/afridi017/ib-afridi-recon-suite" target="_blank" rel="noopener noreferrer"><span class="repo-icon">RS</span><span class="repo-details"><strong>ib-afridi-recon-suite</strong><small>Python reconnaissance toolkit · legal lab environments</small></span><span class="repo-language"><i class="lang-dot lang-python"></i> Python</span><span class="repo-arrow" aria-hidden="true">↗</span></a>
+              <a class="repo-row" href="https://github.com/afridi017/IB-AFRIDI-LINUX.git" target="_blank" rel="noopener noreferrer"><span class="repo-icon">LX</span><span class="repo-details"><strong>IB-AFRIDI-LINUX</strong><small>Repository details not documented here</small></span><span class="repo-language repo-unknown">DETAILS N/A</span><span class="repo-arrow" aria-hidden="true">↗</span></a>
+              <div class="repo-directory-footer mono"><span>MORE PROJECTS <i>→</i></span><a href="https://github.com/afridi017?tab=repositories" target="_blank" rel="noopener noreferrer">BROWSE ALL REPOSITORIES ↗</a></div>
+            </div>
+            <aside class="activity-card">
+              <div class="activity-top mono"><span>CONTRIBUTION ACTIVITY</span><span class="activity-status">API OFFLINE</span></div>
+              <div class="activity-visual" aria-hidden="true"><div class="activity-orbit activity-orbit--one"></div><div class="activity-orbit activity-orbit--two"></div><div class="activity-center">⌘</div><span class="activity-dot activity-dot--one"></span><span class="activity-dot activity-dot--two"></span><span class="activity-dot activity-dot--three"></span></div>
+              <p><strong>Live activity isn't connected.</strong> No repository counts or contribution data are shown here.</p>
+              <a href="https://github.com/afridi017" target="_blank" rel="noopener noreferrer">OPEN GITHUB PROFILE <span aria-hidden="true">↗</span></a>
+            </aside>
+          </div>
+        </section>
+
+        <section class="content-section experience-section reveal" id="experience" aria-labelledby="experience-title">
+          <div class="section-heading-row">
+            <div>
+              <p class="section-index mono"><span>05</span> / EXPERIENCE</p>
+              <h2 id="experience-title">Learning through <span>building.</span></h2>
+            </div>
+            <span class="section-side-note mono">INDEPENDENT WORK<br>2025 — PRESENT</span>
+          </div>
+          <div class="experience-list">
+            <article class="experience-item">
+              <div class="experience-date mono"><span>2025</span><i></i><span>PRESENT</span></div>
+              <div class="experience-body"><div class="experience-title-row"><h3>Independent Security Tool Developer</h3><span class="experience-type">INDEPENDENT</span></div><p>Building open-source Python tools for authorized security research and learning.</p><ul><li>Developed CLI and interactive interfaces</li><li>Implemented multi-threading and automated reporting</li><li>Integrated Nmap and published projects on GitHub</li></ul></div>
+            </article>
+            <article class="experience-item">
+              <div class="experience-date mono"><span>2025</span><i></i><span>PRESENT</span></div>
+              <div class="experience-body"><div class="experience-title-row"><h3>Freelance Web Developer</h3><span class="experience-type">INDEPENDENT</span></div><p>Creating responsive web and hybrid application experiences.</p><ul><li>Responsive websites and web applications</li><li>Interactive 3D websites</li><li>Android applications with web technologies</li></ul></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section education-section reveal" id="education" aria-labelledby="education-title">
+          <div class="section-heading-row">
+            <div>
+              <p class="section-index mono"><span>06</span> / EDUCATION &amp; TRAINING</p>
+              <h2 id="education-title">A foundation in <span>progress.</span></h2>
+            </div>
+          </div>
+          <div class="education-grid">
+            <div class="education-column">
+              <p class="mini-label mono">EDUCATION</p>
+              <article class="education-card"><span class="education-year mono">2026 — 2030</span><h3>BS Computer Science</h3><p>Sarhad University, Peshawar</p><span class="education-mark">01</span></article>
+              <article class="education-card"><span class="education-year mono">2025 — PRESENT</span><h3>Web &amp; App Development</h3><p>SMIT — Saylani Mass IT Training</p><span class="education-mark">02</span></article>
+              <article class="education-card"><span class="education-year mono">COMPLETED 2025</span><h3>FSc Pre-Engineering / ICS</h3><p>Completed 2025</p><span class="education-mark">03</span></article>
+            </div>
+            <div class="training-column">
+              <p class="mini-label mono">CERTIFICATIONS / TRAINING</p>
+              <div class="training-list">
+                <div class="training-row"><span class="training-status training-status--active">IN PROGRESS</span><span>Web &amp; App Development <small>SMIT</small></span></div>
+                <div class="training-row"><span class="training-status">SELF-TAUGHT</span><span>Ethical Hacking &amp; Cybersecurity</span></div>
+                <div class="training-row"><span class="training-status">SELF-TAUGHT</span><span>Python Programming</span></div>
+                <div class="training-row"><span class="training-status training-status--active">IN PROGRESS</span><span>100 Days of Code: Python</span></div>
+              </div>
+              <div class="planned-block"><p class="mini-label mono">PLANNED</p><div class="planned-tags"><span>CompTIA Security+</span><span>eJPT</span><span>CEH</span><span>PNPT</span></div></div>
+              <div class="languages-block"><p class="mini-label mono">LANGUAGES</p><div class="language-row"><span>English <i>Professional</i></span><span>Urdu <i>Native</i></span><span>Pashto <i>Native</i></span></div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section terminal-section reveal" id="terminal" aria-labelledby="terminal-title">
+          <div class="section-heading-row terminal-section-heading">
+            <div>
+              <p class="section-index mono"><span>+</span> / INTERACTIVE INTERFACE</p>
+              <h2 id="terminal-title">The terminal is <span>yours.</span></h2>
+            </div>
+            <p class="section-intro">A small portfolio interface — not a system shell. Try <code>help</code> to get started.</p>
+          </div>
+          <div class="terminal-window">
+            <div class="terminal-titlebar"><div class="terminal-lights" aria-hidden="true"><i></i><i></i><i></i></div><span class="mono">IB-AFRIDI@COMMAND_CENTER: ~</span><span class="terminal-secure mono"><i></i> LOCAL INTERFACE</span></div>
+            <div class="terminal-screen" id="terminal-output" role="log" aria-live="polite" aria-relevant="additions text">
+              <div class="terminal-welcome"><span class="terminal-accent">IB AFRIDI // COMMAND CENTER</span><br>Portfolio interface ready. Type <b>help</b> for available commands.<br><span class="terminal-dim">Commands are simulated in the browser; no operating-system commands are executed.</span></div>
+            </div>
+            <form class="terminal-input-row" id="terminal-form" autocomplete="off">
+              <label class="terminal-prompt mono" for="terminal-command">IB-AFRIDI@COMMAND_CENTER:~$</label>
+              <input id="terminal-command" name="command" type="text" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="Enter a portfolio terminal command" placeholder="type a command…">
+              <button class="terminal-run" type="submit">RUN <span aria-hidden="true">↵</span></button>
+            </form>
+            <div class="terminal-bottomline mono"><span>SIMULATED PORTFOLIO SHELL</span><span>7 COMMANDS <i>·</i> 3 EASTER EGGS</span></div>
+          </div>
+          <div class="terminal-suggestions mono"><span>TRY</span><button type="button" data-command="help">help</button><button type="button" data-command="projects">projects</button><button type="button" data-command="sudo ib-afridi">sudo ib-afridi</button><button type="button" data-command="neofetch">neofetch</button></div>
+        </section>
+
+        <section class="content-section contact-section reveal" id="contact" aria-labelledby="contact-title">
+          <div class="section-heading-row contact-heading-row">
+            <div>
+              <p class="section-index mono"><span>07</span> / CONTACT</p>
+              <h2 id="contact-title">Make a <span>connection.</span></h2>
+            </div>
+            <p class="section-intro">Have a thoughtful project, an idea to explore, or want to talk security and software? Reach out.</p>
+          </div>
+          <div class="contact-panel">
+            <div class="contact-panel-head"><div><span class="mini-label mono">OPEN CHANNELS</span><h3>Let's talk.</h3></div><span class="contact-signal mono"><i></i> AVAILABLE BY EMAIL</span></div>
+            <div class="contact-grid">
+              <a class="contact-item contact-item--email" href="mailto:ib.afridi.cs@gmail.com"><span class="contact-item-label mono">EMAIL</span><strong>ib.afridi.cs@gmail.com</strong><span class="contact-item-arrow" aria-hidden="true">↗</span></a>
+              <a class="contact-item" href="tel:+923332149829"><span class="contact-item-label mono">PHONE</span><strong>+92 333 2149829</strong><span class="contact-item-arrow" aria-hidden="true">↗</span></a>
+              <a class="contact-item" href="https://github.com/afridi017" target="_blank" rel="noopener noreferrer"><span class="contact-item-label mono">GITHUB</span><strong>github.com/afridi017</strong><span class="contact-item-arrow" aria-hidden="true">↗</span></a>
+              <a class="contact-item" href="https://linkedin.com/in/ishaqafridi017" target="_blank" rel="noopener noreferrer"><span class="contact-item-label mono">LINKEDIN</span><strong>linkedin.com/in/ishaqafridi017</strong><span class="contact-item-arrow" aria-hidden="true">↗</span></a>
+              <a class="contact-item" href="https://ib-afridi.netlify.app" target="_blank" rel="noopener noreferrer"><span class="contact-item-label mono">WEBSITE</span><strong>ib-afridi.netlify.app</strong><span class="contact-item-arrow" aria-hidden="true">↗</span></a>
+              <a class="contact-item" href="https://afridi.store" target="_blank" rel="noopener noreferrer"><span class="contact-item-label mono">ADDITIONAL</span><strong>afridi.store</strong><span class="contact-item-arrow" aria-hidden="true">↗</span></a>
+            </div>
+            <div class="contact-panel-footer"><span class="mono">PESHAWAR <i>·</i> KHYBER PAKHTUNKHWA <i>·</i> PAKISTAN</span><a href="mailto:ib.afridi.cs@gmail.com">SEND AN EMAIL <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand-lockup footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">IA<span>/</span></span><span class="brand-wordmark"><strong>IB AFRIDI</strong><small>CYBER COMMAND CENTER</small></span></a>
+    <p class="footer-ethic">“Ethical hacking is not a crime, it's a skill.”</p>
+    <div class="footer-meta mono"><span>DESIGNED WITH PURPOSE <i>·</i> PESHAWAR, PK</span><a href="#top">BACK TO TOP ↑</a></div>
+  </footer>
+</body>
+</html>
